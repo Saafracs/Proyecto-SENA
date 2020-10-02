@@ -1,0 +1,197 @@
+/*text-align:center; centrar texto horizontalmente
+margin:auto; centrar elementos bloque con ancho especifico horizontalmente
+
+line-height:; centrar una linea de texto verticalmente
+margin-top:; margin-bottom:; centrar verticalmente a partir del margin
+
+flexbox - centrar horizontalmente o verticalmente cualquier elemento
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background: url(imagenes/fondokiwi.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+header {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 8px;
+}
+.navegacion {
+    width: 1000%;
+    margin: auto;
+    background: rgba(40, 180, 99);
+    position: fixed;
+    margin-left: 20px;
+    margin-right: 200px;
+    border-radius: 67px;
+}
+.navegacion ul {
+    list-style: none;
+    /* Flex */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+.menu>li {
+    position: relative;
+    display: inline-block;
+}
+.menu>li>a {
+    display: block;
+    padding: 15px 20px;
+    color: rgba(253, 254, 254);
+    font-family: 'Oxygen';
+    text-decoration: none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.menu li a:hover {
+    color: rgba(28, 40, 51);
+    transition: all 0.3s;
+}
+.menu li:hover .submenu {
+    visibility: visible;
+    opacity: 1;
+}
+/* Submenu*/
+
+.submenu {
+    position: absolute;
+    background: #fff;
+    width: 190%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.6s;
+}
+.submenu li a {
+    display: inline-block;
+    padding: 15px;
+    color: rgba(40, 180, 99);
+    font-family: 'Oxygen';
+    text-decoration: none;
+}
+/*Scroll*/
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+body::-webkit-scrollbar-thumb {
+    background: #ff9d00;
+    border-radius: 15px;
+    border-right: 2px;
+}
+/*Contenedor*/
+
+.contenedor {
+    width: 100px auto;
+    height: 1000px;
+    margin: 80px;
+    padding: 40px;
+    background: #fff;
+    overflow: auto;
+    font-family: 'Advent Pro';
+    border-radius: 7px;
+    position: static;
+    overflow: hidden;
+    margin-top: 150px;
+    color: rgba(33, 33, 33);
+    vertical-align: right;
+}
+.font-effect-anaglyph {
+    font-size: 50px;
+}
+.p1 {
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*logo*/
+
+.logo {
+    width: 100px;
+    height: 100px auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 1px;
+}
+.login {
+    display: inline-block;
+    padding: 15px 500px;
+    color: #FDFEFE;
+    font-family: 'Oxygen';
+    color: rgba(46, 134, 193);
+}
+.login>li {
+    display: inline-block;
+    padding: 10px;
+}
+.login>li>a {
+    color: rgba(253, 254, 254);
+    display: table-cell;
+}
+/*iconos*/
+
+.icono {
+    padding: 1px;
+    color: rgba(253, 254, 254);
+}
+.login li:hover .icono {
+    color: rgba(28, 40, 51);
+    transition: all 0.3s;
+}
+/*Mision*/
+
+.imagen {
+    text-align: ;
+    width: 500px;
+    margin: auto;
+    border-radius: 50px;
+    display: block;
+    overflow: auto;
+    float: right;
+    box-shadow: 5px 5px 0px #B2BABB;
+}
+.contenedor p {
+    padding: 30px 0px;
+    display: inline-block;
+}
+.contenedor h1 {
+    display: inline-block;
+    width: 100%;
+}
+.contenedor h2 {
+    padding: 30px 0px;
+    display: inline-block;
+    width: 100%;
+}
+.imagen2 {
+    text-align: ;
+    width: 500px;
+    margin: auto;
+    border-radius: 50px;
+    display: block;
+    overflow: auto;
+    float: right;
+    box-shadow: 5px 5px 0px #B2BABB;
+}
+.esta {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+}
+.esta {
+    font-size: 23px;
+    padding: 20px;
+}

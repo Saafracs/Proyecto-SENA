@@ -1,0 +1,23 @@
+body {
+	background: url(imagenes/sea.jpg);
+	background-size: cover;
+	/*background-color: #fff;*/
+	font-family: 'Oxygen'
+}
+
+.contenedor {
+	background-color: #fff;
+	border-radius: 15px;
+	padding: 10px;
+	margin: 80px;
+}
+
+.esta {
+	width: 80%;
+	color-interpolation: #3F54C0;
+}
+
+.regresar {
+	cursor: pointer;
+	
+}
