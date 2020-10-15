@@ -63,6 +63,10 @@ div {
     transform: translate3d(12%);
     background: #AA522F;
 }
-.tabla {
-    overflow: all;
+.span {
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
 }
