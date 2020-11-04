@@ -21,7 +21,7 @@
                     <img class="logo" src="../modelo/imagenes/logperson.png"/>
                 </a>
                 <li>
-                    <a href="Nosotros.html">
+                    <a href="Nosotros.php">
                         Nosotros
                     </a>
                 </li>
@@ -31,14 +31,14 @@
                     </a>
                 </li>
                 <li>
-                    <a href="Contacto.html">
+                    <a href="Contacto.php">
                         Contacto
                     </a>
                 </li>
                 <div class="login">
                 </div>
                 <li>
-                    <a href="Login.html">
+                    <a href="Login.php">
                         <strong>
                             <em>
                                 <i class="icono fas fa-seedling" style="color: white">
@@ -49,7 +49,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="Registrar.html">
+                    <a href="Registrar.php">
                         <strong>
                             <em>
                                 <i class="icono fas fa-plus" style="color: white">

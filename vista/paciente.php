@@ -17,38 +17,38 @@
     </head>
     <style type="text/css">
         .icono fas fa-seedling{
-		text-decoration: none;
-	}
+        text-decoration: none;
+    }
     </style>
     <body>
         <header>
             <nav class="navegacion">
                 <ul class="menu">
-                    <a href="iniciopaciente.html">
+                    <a href="#">
                         <img class="logo" src="css/imagenes/logperson.png"/>
                     </a>
                     <li>
-                        <a href="Nosotrospaciente.html">
+                        <a href="#">
                             Nosotros
                         </a>
                     </li>
                     <li>
-                        <a href="serviciospaciente.html">
+                        <a href="#">
                             Servicios
                         </a>
                     </li>
                     <li>
-                        <a href="Contactopaciente.html">
+                        <a href="#">
                             Contacto
                         </a>
                     </li>
                     <li>
-                        <a href="citas.html">
+                        <a href="citas.php">
                             Citas
                         </a>
                     </li>
                     <li class="login">
-                        <a href="Login.html">
+                        <a href="Login.php">
                             <strong>
                                 <em>
                                     <li>
@@ -78,11 +78,11 @@
     <hr/>
     <p class="p1">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
     <img class="imagen" src="css/imagenes/8.jpg">
         <img class="imagen2" src="css/imagenes/9.jpg">

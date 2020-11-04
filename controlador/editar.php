@@ -38,6 +38,7 @@ $pass      = $dato['passwordUsuario'];
             <form action="" method="POST">
                 <input name="Nombre" placeholder="Nombre" required="required" type="text" value="<?php echo ($nombre) ?>"/>
                 <input name="Apellido" placeholder="Apellido" required="required" type="text" value="<?php echo ($apellido) ?>"/>
+
                 <input name="Correo" placeholder="Correo" required="required" type="text" value="<?php echo ($correo) ?>"/>
                 <input name="Telefono" placeholder="Telefono" required="required" type="text" value="<?php echo ($telefono) ?>"/>
                 <input name="Direccion" placeholder="Direccion" required="required" type="text" value="<?php echo ($direccion) ?>"/>

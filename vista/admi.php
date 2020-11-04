@@ -26,7 +26,7 @@
                     <img class="logo" src="../modelo/imagenes/logperson.png"/>
                 </a>
                 <li>
-                    <a href="citas.html">
+                    <a href="citas.php">
                         Citas
                     </a>
                 </li>
@@ -41,7 +41,7 @@
                     </a>
                 </li>
                 <li class="login">
-                    <a href="#">
+                    <a href="../controlador/cerrar_sesion.php">
                         <strong>
                             <em>
                                 <li>

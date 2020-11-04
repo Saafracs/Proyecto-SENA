@@ -73,8 +73,7 @@ while ($dato = mysqli_fetch_array($guardar)) {
     $pass      = $dato['passwordUsuario'];
     // $repass    = $dato[];
     $contador++;
-}
-?>
+    ?>
                 <tr align="center">
                     <td>
                         <?php echo $id; ?>
@@ -102,15 +101,16 @@ while ($dato = mysqli_fetch_array($guardar)) {
                             ✏️
                         </a>
                     </td>
-                    <td >
+                    <td>
                         <a href="borrar.php?borrar=<?php echo $id ?>" onclick="return ConfirmDelete()">
                             🗑️
                         </a>
                     </td>
                 </tr>
+            <?php }?>
             </table>
             <br/>
-            <a href="../vista/registrar.html" >
+            <a href="../vista/registrar.php">
                 <input class="botonregistro" name="borrar" type="button" value="Registrar Usuario"/>
             </a>
         </div>

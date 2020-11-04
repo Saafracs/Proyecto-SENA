@@ -15,12 +15,14 @@
     <a href="javascript: history.go(-1)">
         <input class="Regresar" type="button" value="Regresar"/>
     </a>
+    <script src="../controlador/main.js">
+    </script>
 </body>
 <div class="box">
     <h2>
         Registrar
     </h2>
-    <form action="../controlador/registro.php" class="formulario" method="POST">
+    <form action="../controlador/registro.php" class="formulario" id="formlog" method="POST">
         <div class="inputBox">
             <input name="nombre" required="required" type="text">
                 <label>

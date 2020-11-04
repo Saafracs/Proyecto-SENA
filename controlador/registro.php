@@ -12,7 +12,4 @@ $pass      = $_POST["pass"];
 $consulta = "INSERT INTO usuarios (nombreUsuario,apellidoUsuario,correoUsuario,telefonoUsuario,direccionUsuario,passwordUsuario) values ('$nombre','$apellido','$correo','$telefono', '$direccion','$pass')";
 $guardar  = mysqli_query($conexion, $consulta);
 
-// session_start();
-// $_SESSION['usuario'] = $nombre;
-
-header('location:../vista/login.html');
+header('location:../vista/login.php');

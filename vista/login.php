@@ -20,16 +20,16 @@
     <h2>
         Iniciar Sesión
     </h2>
-    <form>
+    <form action="../controlador/login.php" method="POST">
         <div class="inputBox">
-            <input name="" required="required" type="text">
+            <input name="nombreUsuario" required="required" type="text">
                 <label>
                     Usuario
                 </label>
             </input>
         </div>
         <div class="inputBox">
-            <input required="required" type="password">
+            <input name="passwordUsuario" required="required" type="password">
                 <label>
                     Contraseña
                 </label>
@@ -38,13 +38,13 @@
         <center>
             <form class="formulario">
                 <a href="">
-                    <input class="esta" type="button" value="Iniciar Sesión"/>
+                    <input class="esta" type="submit" value="Iniciar Sesión"/>
                 </a>
                 <br/>
                 <br/>
                 <hr style="width: 60%;"/>
                 <br/>
-                <a href="registrar.html">
+                <a href="registrar.php">
                     <input class="esta" type="button" value="Registrar"/>
                 </a>
             </form>

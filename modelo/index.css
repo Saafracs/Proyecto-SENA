@@ -1,12 +1,3 @@
-/*text-align:center; centrar texto horizontalmente
-margin:auto; centrar elementos bloque con ancho especifico horizontalmente
-
-line-height:; centrar una linea de texto verticalmente
-margin-top:; margin-bottom:; centrar verticalmente a partir del margin
-
-flexbox - centrar horizontalmente o verticalmente cualquier elemento
-*/
-
 * {
     margin: 0;
     padding: 0;

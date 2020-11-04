@@ -31,17 +31,17 @@
                     </a>
                 </li>
                 <li class="border">
-                    <a href="servicios.html">
+                    <a href="servicios.php">
                         Servicios
                     </a>
                 </li>
                 <li class="border">
-                    <a href="contacto.html">
+                    <a href="contacto.php">
                         Contacto
                     </a>
                 </li>
                 <li class="login">
-                    <a href="../vista/login.html">
+                    <a href="../vista/login.php">
                         <strong>
                             <em>
                                 <li>
@@ -54,7 +54,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="registrar.html">
+                    <a href="registrar.php">
                         <strong>
                             <em>
                                 <li>

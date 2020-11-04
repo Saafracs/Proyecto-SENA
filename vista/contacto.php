@@ -25,12 +25,12 @@
                     <img class="logo" src="../modelo/imagenes/logperson.png"/>
                 </a>
                 <li>
-                    <a href="Nosotros.html">
+                    <a href="Nosotros.php">
                         Nosotros
                     </a>
                 </li>
                 <li>
-                    <a href="Servicios.html">
+                    <a href="Servicios.php">
                         Servicios
                     </a>
                 </li>
@@ -40,7 +40,7 @@
                     </a>
                 </li>
                 <li class="login">
-                    <a href="Login.html">
+                    <a href="Login.php">
                         <strong>
                             <em>
                                 <li>
@@ -53,7 +53,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="Registrar.html">
+                    <a href="Registrar.php">
                         <strong>
                             <em>
                                 <i class="icono fas fa-plus">
